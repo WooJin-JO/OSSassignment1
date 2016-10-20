@@ -25,6 +25,11 @@ def playthegame():
     """run the program"""
     loop()
     result_print()
+    again = input("play again? (y/n)")
+    if(again == 'y'):
+	playthegame()
+    else:
+	print("bye bye")
 
 def loop():
     """1. first while
