@@ -120,6 +120,11 @@ def decision():
 
 
 def result_print():
+    global win
+    global draw
+    global lose
     """10times game result print by win, draw, lose"""
     print("game result :", win, "win", draw, "draw", lose, "lose")
-
+    win = 0
+    draw = 0
+    lose = 0
